@@ -1,0 +1,195 @@
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar {
+    font-weight: 100;
+    background-color: rgb(14, 5, 110) !important;
+
+
+
+}
+
+.navbar-brand svg {
+    width: 50px;
+    height: 50px;
+    color: #91B3FA;
+}
+
+.navbar-brand .x {
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    color: #91B3FA;
+}
+
+.navbar-nav .nav-item {
+    transition: 500ms;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-nav .nav-item:hover {
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 110%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #91B3FA;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar-nav .nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.dropdown-menu {
+    font-weight: 100;
+    background-color: #DAE4FF;
+}
+
+.navbar-nav>li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-nav .nav-item {
+    display: inline-block;
+    position: relative;
+    color: #91B3FA;
+}
+
+figcaption {
+    font: italic smaller sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.introduction h2 {
+    color: #FF7C72;
+    font-size: 1.9rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.introduction p {
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.article h3 {
+    color: #FF7C72;
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.article figcaption a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.7rem;
+
+}
+
+.article p {
+    font-style: italic;
+    font-weight: 100;
+    /* font-size: 0.9rem; */
+}
+
+
+/* below 544 devices (landscape phones, 544px and up) */
+@media (min-width: 0px) {
+    .introduction p {
+        font-size: 0.9rem;
+    }
+    .article p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    .introduction p {
+        font-size: 0.9rem;
+    }
+    .article p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .introduction p {
+        font-size: 1rem;
+    }
+    .article p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .introduction p {
+        font-size: 0.9rem;
+    }
+    .article p {
+        font-size: 1rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .introduction p {
+        font-size: 0.9rem;
+    }
+    .article p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .introduction p {
+        font-size: 0.9rem;
+    }
+    .article p {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width: 1600px) {
+    .introduction p {
+        font-size: 1.1rem;
+    }
+
+}
+
+.footer {
+    background-color: rgb(254,165,159);
+    font-weight: 100;
+    font-size: 0.85rem;
+}
+
+
+
+
+
